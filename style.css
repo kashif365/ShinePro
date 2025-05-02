@@ -5,6 +5,7 @@
   font-family: 'sora', sans-serif;
 }
 
+
 .navbar-nav {
   width: 568;
   height: 20;
@@ -337,6 +338,9 @@
   margin: auto;
 
 }
+.ul-div{
+  width: 100% !important;
+}
 
 .why-choose-container button {
   width: 277px;
@@ -355,6 +359,7 @@
   /* background-color: #bddfff; */
   background: #E7EFF6;
   margin-top: 10%;
+  width: 100% !important;
 
 }
 
@@ -423,7 +428,7 @@ margin-top: 5% !important;
 .form-div{
   position: relative !important;
   /* top: 50px !important; */
-  left: 30% !important;
+  left: 20% !important;
   /* left: 40% !important; */
   /* background-color: yellow !important; */
   display: inline-block !important;
