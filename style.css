@@ -553,4 +553,14 @@ margin-top: 5% !important;
     border: solid 1px #204a7a;
     background-color: #a6c4e7;
   }
+  .form-div{
+    position: relative !important;
+    /* top: 50px !important; */
+    left: 10% !important;
+    /* left: 40% !important; */
+    /* background-color: yellow !important; */
+    display: inline-block !important;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+  }
 } 
