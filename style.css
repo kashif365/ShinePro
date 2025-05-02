@@ -25,10 +25,11 @@
   top: 40px;
   left: 984px;
   color: #000000;
-
+}
+.nav-item a:hover{
+  border-bottom: #204a7a !important;
 
 }
-
 
 
 .main-content {
@@ -110,6 +111,7 @@
 
 .stats-container {
   color: #2E6496;
+
 }
 
 .stats-container h2 {
@@ -212,7 +214,7 @@
   }
 }
 
-.card {
+.cleaning-card {
   background-color: #E7EFF6 !important;
   border-radius: 1rem !important;
   border: none !important;
@@ -243,12 +245,12 @@
 
 }
 
-.card-image {
+/* .card-image {
   border: none !important;
   border-radius: 1rem !important;
   height: 242px !important;
   width: 350px !important;
-}
+} */
 
 .btn-primary {
   background-color: #2E6496 !important;
@@ -425,6 +427,10 @@ margin-top: 5% !important;
 .info-item {
   margin-bottom: 20px;
 }
+.info-item img{
+  border: solid #204a7a;
+  background-color: #a6c4e7;
+}
 .form-div{
   position: relative !important;
   /* top: 50px !important; */
@@ -483,3 +489,65 @@ margin-top: 5% !important;
 .footer-nav a:hover {
   text-decoration: underline;
 }
+
+.about-page{
+ /* .card img{
+  width: 64px;
+  height: 64px;
+  margin: 20px;
+ }  */
+ .hero-section-about{
+  background: url('./images/about\ banner.png') no-repeat;
+  background-size: cover;
+  height: 380px;
+  color: white;
+  padding: 2rem;
+  text-align: left;
+}
+.teambox-container{
+  margin-top: 5%;
+}
+.team-box{
+  background-color: #E7EFF6 !important;
+ /* width: 60%; */
+ height: 170px;
+ padding: 24px;
+ border-radius:20px ;
+
+}
+}
+
+.service-page{
+  .hero-section-about{
+    background: url('./images/Services/image\ \(1\).png') no-repeat;
+    background-size: cover;
+    height: 380px;
+    color: white;
+    padding: 2rem;
+    text-align: left;
+  }
+}
+.industries-page{
+  .hero-section-about{
+    background: url('./images/Industries/image\ \(1\).png') no-repeat;
+    background-size: cover;
+    height: 380px;
+    color: white;
+    padding: 2rem;
+    text-align: left;
+  }
+}
+.contact-page{
+  .hero-section-about{
+    background: url('./images/Contact/image\ \(1\).png') no-repeat;
+    background-size: cover;
+    height: 380px;
+    color: white;
+    padding: 2rem;
+    text-align: left;
+  }
+  .info-item img{
+    border: solid 1px #204a7a;
+    background-color: #a6c4e7;
+  }
+} 
