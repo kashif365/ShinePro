@@ -698,7 +698,7 @@ margin-top: 5% !important;
 }
 .industries-page{
   .hero-section-about{
-    background: url('./images/Industries/image\ \(1\).png') no-repeat;
+    background: url('./images/industries/image\ \(1\).png') no-repeat;
     background-size: cover;
     height: 380px;
     color: white;
@@ -708,7 +708,7 @@ margin-top: 5% !important;
 }
 .contact-page{
   .hero-section-about{
-    background: url('./images/Contact/image\ \(1\).png') no-repeat;
+    background: url('./images/contact/image\ \(1\).png') no-repeat;
     background-size: cover;
     height: 380px;
     color: white;
@@ -765,32 +765,4 @@ margin-top: 5% !important;
 
 
 
-.moving-slider {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  white-space: nowrap;
-  animation: scroll-right 20s linear infinite;
-}
 
-.moving-slider li {
-  flex: 0 0 auto;
-  margin-right: 20px;
-}
-
-.moving-slider img {
-  width: 200px; /* Adjust as needed */
-  height: auto;
-  display: block;
-}
-
-@keyframes scroll-right {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
