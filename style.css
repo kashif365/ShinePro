@@ -684,6 +684,16 @@ margin-top: 5% !important;
  border-radius:20px ;
 
 }
+.about-card .card img{
+  width: 64px;
+  height: 64px;
+  
+
+}
+.about-card .card{
+  margin-bottom: 10% !important;
+}
+
 }
 
 .service-page{
