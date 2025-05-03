@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'sora', sans-serif;
+  font-family: 'sora', sans-serif !important;
 }
 body {
   overflow-x: hidden;
@@ -180,6 +180,25 @@ body {
   left: 280% !important;
   z-index: 2;
 }
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  padding: 1rem;
+}
 
 .feature-number {
   font-weight: 700;
@@ -218,42 +237,59 @@ body {
 }
 
 .cleaning-card {
-  background-color: #E7EFF6 !important;
+   background-color: #E7EFF6 !important;
   border-radius: 1rem !important;
   border: none !important;
-  padding: 10px !important;
-  width: 30% !important;
-  height: 420px !important;
+  /* padding: 10px !important; */
+  /* width: 30% !important; */
+  /* height: 420px !important;  */
 
+  
 }
-
-.card h2 {
+/* .cleaning-card a {
+  z-index:  !important;
+} */
+.cleaning-card h2 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  /* color: green !important;  */
   /* color: #2E6496; */
 }
-
+.cleaning-card .card-image {
+  top: -20px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+.cleaning-card .card-body a img{
+position: relative !important;
+  top: 280px !important;
+  left: 90% !important;
+} 
 .card p {
   font-size: 1rem;
   line-height: 1.5;
   /* color: #6c757d; */
 }
 
-.card a {
+
+
+
+
+/* .card a {
   position: absolute;
   bottom: 18px;
   right: 30px !important;
   z-index: 1;
 
-}
-
-/* .card-image {
-  border: none !important;
-  border-radius: 1rem !important;
-  height: 242px !important;
-  width: 350px !important;
 } */
+
+.cleaning-card .card-image {
+
+}
 
 .btn-primary {
   background-color: #2E6496 !important;
@@ -564,3 +600,47 @@ margin-top: 5% !important;
     margin-bottom: 50px !important;
   }
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.moving-slider {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: scroll-right 20s linear infinite;
+}
+
+.moving-slider li {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.moving-slider img {
+  width: 200px; /* Adjust as needed */
+  height: auto;
+  display: block;
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
