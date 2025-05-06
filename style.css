@@ -555,6 +555,15 @@ position: relative !important;
   left: -60px !important;
   color: white;
 }
+.solutions-container-images a img {
+  transition: all 0.3s ease;
+  box-shadow: none;
+}
+
+.solutions-container-images a:hover img {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
 @media (min-width: 768px) {
   .solutions-container p {
     /* position: relative; */
@@ -584,14 +593,13 @@ margin-top: 5% !important;
 }
 
 .contact-box {
-  /* background-color: white 80% !important; */
+  background-color: rgba(255, 255, 255, 0.8); /* white with 80% opacity */
   border-radius: 10px;
-  backdrop-filter: blur(20px) ;
+  backdrop-filter: blur(10px);
   padding: 30px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  
-
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
+
 
 .icon {
   margin-right: 10px;
@@ -642,8 +650,8 @@ margin-top: 5% !important;
 }
 @media(min-width: 768px) {
   .Availability-div {
-    margin-top: 70px !important;
-  margin-left: 20% !important;
+    margin-top: -70px !important;
+  /* margin-left: 20% !important; */
   }
 }
 
@@ -703,7 +711,14 @@ margin-top: 5% !important;
  height: 170px;
  padding: 24px;
  border-radius:20px ;
+ transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 
+}
+.team-box:hover {
+  background-color: #ffffff;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 .about-card .card img{
   width: 64px;
@@ -746,7 +761,13 @@ margin-top: 5% !important;
     padding: 2rem;
     text-align: left;
   }
+  .info-item 
   .info-item img{
+    /* align-items: start; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: start; */
+    /* margin:0px !important; */
     border: solid 1px #204a7a;
     background-color: #a6c4e7;
   }
